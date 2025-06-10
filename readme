@@ -1,34 +1,34 @@
-# Previsão de Resultados da Premier League com Árvore de Decisão
+Título: Previsão de Resultados da Premier League com Árvore de Decisão
 
+Descrição:
 Este projeto aplica aprendizado de máquina supervisionado para prever o resultado de partidas da Premier League 2023/2024, utilizando o algoritmo de Árvore de Decisão.
 
-## 🎯 Objetivo
-Classificar os jogos em **vitória**, **empate** ou **derrota**, com base em variáveis estatísticas como:
-- Gols esperados (xG)
-- Posse de bola
-- Finalizações
-- Local da partida (casa ou fora)
+Objetivo:
+Classificar os jogos em três categorias — vitória, empate ou derrota — com base em estatísticas coletadas de cada partida. As variáveis utilizadas incluem gols esperados (xG), posse de bola, número de finalizações, local da partida (casa ou fora), entre outras.
 
-## 🛠️ Tecnologias utilizadas
-- Python 3
-- Pandas
-- Scikit-learn
-- Matplotlib e Seaborn
+Tecnologias utilizadas:
 
-## 📈 Etapas do Projeto
-1. Coleta e pré-processamento dos dados
-2. Codificação das variáveis e seleção de atributos relevantes
-3. Treinamento do modelo com `DecisionTreeClassifier`
-4. Avaliação por matriz de confusão e métricas (precisão, recall, F1-score)
-5. Visualização da árvore de decisão
+Linguagem: Python
 
-## ✅ Resultados
-- **Acurácia geral:** 59%
-- Desempenho consistente nas previsões de vitórias e derrotas
-- Dificuldade em prever empates (classe menos frequente e menos padronizada)
+Bibliotecas: Pandas, Scikit-learn, Matplotlib, Seaborn
 
-## 📂 Fonte dos dados
-- [FBref.com](https://fbref.com/en/) – Estatísticas públicas da Premier League 2023/2024
+Etapas do projeto:
 
-## 📌 Autor
-Marlon Magest – Projeto acadêmico de ciência de dados
+Coleta e pré-processamento dos dados
+
+Codificação das variáveis categóricas e seleção de atributos
+
+Treinamento do modelo com DecisionTreeClassifier
+
+Avaliação por meio de matriz de confusão e métricas de classificação (acurácia, precisão, recall, F1-score)
+
+Visualização da árvore de decisão gerada
+
+Resultados:
+O modelo obteve uma acurácia de 59%. Houve bom desempenho na previsão de vitórias e derrotas, mas o modelo apresentou maior dificuldade em prever empates, em razão da baixa frequência e imprevisibilidade dessa classe.
+
+Fonte dos dados:
+FBref.com – Estatísticas públicas da temporada 2023/2024 da Premier League
+
+Autor:
+Marlon Magest — Projeto acadêmico de ciência de dados
