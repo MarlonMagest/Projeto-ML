@@ -1,0 +1,34 @@
+# Previsão de Resultados da Premier League com Árvore de Decisão
+
+Este projeto aplica aprendizado de máquina supervisionado para prever o resultado de partidas da Premier League 2023/2024, utilizando o algoritmo de Árvore de Decisão.
+
+## 🎯 Objetivo
+Classificar os jogos em **vitória**, **empate** ou **derrota**, com base em variáveis estatísticas como:
+- Gols esperados (xG)
+- Posse de bola
+- Finalizações
+- Local da partida (casa ou fora)
+
+## 🛠️ Tecnologias utilizadas
+- Python 3
+- Pandas
+- Scikit-learn
+- Matplotlib e Seaborn
+
+## 📈 Etapas do Projeto
+1. Coleta e pré-processamento dos dados
+2. Codificação das variáveis e seleção de atributos relevantes
+3. Treinamento do modelo com `DecisionTreeClassifier`
+4. Avaliação por matriz de confusão e métricas (precisão, recall, F1-score)
+5. Visualização da árvore de decisão
+
+## ✅ Resultados
+- **Acurácia geral:** 59%
+- Desempenho consistente nas previsões de vitórias e derrotas
+- Dificuldade em prever empates (classe menos frequente e menos padronizada)
+
+## 📂 Fonte dos dados
+- [FBref.com](https://fbref.com/en/) – Estatísticas públicas da Premier League 2023/2024
+
+## 📌 Autor
+Marlon Magest – Projeto acadêmico de ciência de dados
